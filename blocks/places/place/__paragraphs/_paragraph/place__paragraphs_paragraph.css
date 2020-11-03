@@ -1,0 +1,13 @@
+.place__paragraphs_paragraph {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__paragraphs_paragraph:nth-of-type(1) {
+  margin-bottom: 26px;
+}
