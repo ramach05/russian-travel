@@ -1,4 +1,11 @@
-.place__paragraph {
-    width: 100%;
-    height: 100%;
+.place__paragraphs {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    width: 90vw;
+  }
 }

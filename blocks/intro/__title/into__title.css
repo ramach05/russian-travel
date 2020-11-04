@@ -4,6 +4,14 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  max-width: 690px;
   margin: 0 0 40px;
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .into__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

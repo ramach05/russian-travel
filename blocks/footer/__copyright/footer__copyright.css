@@ -9,3 +9,11 @@
   text-align: right;
   align-self: center;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    line-height: 14px;
+    align-self: flex-start;
+    text-align: left;
+  }
+}

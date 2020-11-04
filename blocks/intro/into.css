@@ -1,6 +1,24 @@
 .into {
-  max-width: 690px;
-  max-height: 429px;
-  margin-bottom: 92px;
-  margin-left: 148px;
+  max-width: 984px;
+
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1280px) {
+  .into {
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .into {
+    margin: 0 auto 88px;
+    width: 95.3125%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .into {
+    margin: 0 auto 64px;
+    width: 95.833333%;
+  }
 }

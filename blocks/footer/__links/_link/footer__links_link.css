@@ -7,4 +7,20 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+  transition: opacity 0.2s ease;
+}
+
+.footer__links_link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links_link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  .footer__links_link:last-of-type {
+    margin-bottom: 48px;
+  }
 }

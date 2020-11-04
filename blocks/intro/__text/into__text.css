@@ -4,6 +4,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
+  max-width: 690px;
   margin: 0 0 33px;
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .into__text {
+    margin: 0 0 34px;
+  }
 }

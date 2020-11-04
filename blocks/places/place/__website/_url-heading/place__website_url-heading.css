@@ -10,3 +10,9 @@
   line-height: 12px;
   letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    line-height: 12px;
+  }
+}

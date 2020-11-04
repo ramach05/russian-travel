@@ -11,3 +11,9 @@
 .place__paragraphs_paragraph:nth-of-type(1) {
   margin-bottom: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphs_paragraph {
+    font-size: 16px;
+  }
+}
