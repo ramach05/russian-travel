@@ -1,4 +1,4 @@
-.place__website_link {
+.website__link {
   margin: 0;
   padding: 0;
   align-self: flex-start;
@@ -11,6 +11,6 @@
   transition: opacity 0.2s ease;
 }
 
-.place__website_link:hover {
+.website__link:hover {
   opacity: 0.8;
 }
