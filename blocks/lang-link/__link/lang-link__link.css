@@ -19,7 +19,7 @@ li:last-of-type .lang-link__link {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lang-link__link {
     font-size: 18px;
     line-height: 20px;

@@ -5,15 +5,20 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29.34px;
 }
 
 .paragraphs__paragraph:nth-of-type(1) {
   margin-bottom: 26px;
 }
 
-@media screen and (max-width: 1024px) {
+.paragraphs__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
   .paragraphs__paragraph {
     font-size: 16px;
+    line-height: 26.08px;
   }
 }

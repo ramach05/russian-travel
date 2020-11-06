@@ -1,24 +1,24 @@
 .into {
   max-width: 984px;
-
   margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .into {
+    width: 90.625vw;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .into {
     margin: 0 auto 88px;
-    width: 95.3125%;
+    width: 95.3125vw;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .into {
     margin: 0 auto 64px;
-    width: 95.833333%;
+    width: 90vw;
   }
 }

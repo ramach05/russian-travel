@@ -11,19 +11,20 @@
   padding-bottom: 62.5%;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover {
     width: 100%;
+    margin: 0 auto 95px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    margin: 0 auto 88px;
+    margin: 0 auto 85px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover {
     margin: 0 auto 64px;
   }
