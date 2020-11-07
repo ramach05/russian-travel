@@ -20,7 +20,7 @@
 @import url(/blocks/intro/__title/into__title.css);
 @import url(/blocks/intro/__text/into__text.css);
 @import url(/blocks/intro/__list/into__list.css);
-@import url(/blocks/intro/__list/_font/into__list_font.css);
+@import url(/blocks/intro/__list/_font/into__list_font_regular.css);
 
 @import url(/blocks/photo-grid/photo-grid.css);
 @import url(/blocks/photo-grid/__item/photo-grid__item.css);
@@ -46,4 +46,3 @@
 @import url(/blocks/footer/__copyright/footer__copyright.css);
 
 @import url(/blocks/link-decoration/link-decoration.css);
-
