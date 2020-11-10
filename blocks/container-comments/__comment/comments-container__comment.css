@@ -1,0 +1,6 @@
+.comments-container__comment {
+    display: flex;
+    flex-flow: column;
+    max-width: 382px;
+    position: relative;
+}

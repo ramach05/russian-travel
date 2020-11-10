@@ -1,5 +1,5 @@
 * {
-  /* border: 1px red solid; */
+  border: 1px red solid;
 }
 
 .page {
@@ -8,4 +8,5 @@
   background-color: #2a2c2f;
   position: relative;
   -webkit-font-smoothing: antialiased;
+  /* z-index: -5; */
 }

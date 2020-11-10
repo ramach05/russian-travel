@@ -1,0 +1,39 @@
+.container__item {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  /* object-fit: contain; */
+  /* height: 323px; */
+  /* height: 100%; */
+  position: relative;
+  /* padding-bottom: 55.403087%; */
+}
+
+.container__item:first-of-type {
+  background-image: url(../../../images/video/kamchatka.jpg);
+  margin-right: 18px;
+  width: 100%;
+  max-height: 323px;
+  /* height: 100%; */
+  object-fit: fill;
+}
+
+.container__item:last-of-type {
+  background-image: url(../../../images/video/observatory.jpg);
+}
+
+.container__item:first-of-type::before {
+  content: "";
+  background-color: #000000;
+  opacity: 0.5;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 55.403087%;
+}
