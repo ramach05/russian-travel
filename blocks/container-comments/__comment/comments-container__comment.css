@@ -3,4 +3,5 @@
     flex-flow: column;
     max-width: 382px;
     position: relative;
+    justify-content: start;
 }

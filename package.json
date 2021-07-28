@@ -1,0 +1,22 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "Adaptive website. Compiled using webpack and uploaded to the gh-pages server.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramach05/russian-travel.git"
+  },
+  "keywords": [],
+  "author": "Roman Kovalenko <mrroman6552@gmail.com> (https://github.com/ramach05)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramach05/russian-travel/issues"
+  },
+  "homepage": "https://github.com/ramach05/russian-travel#readme"
+}
