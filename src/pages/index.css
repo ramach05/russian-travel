@@ -50,6 +50,7 @@
 @import url(../blocks/video/__subtitle/video__subtitle.css);
 @import url(../blocks/video/__container/video__container.css);
 @import url(../blocks/video/__container-item/video__container-item.css);
+@import url(../blocks/video/__content/video__content.css);
 @import url(../blocks/video/__icon-play/video__icon-play.css);
 @import url(../blocks/video/__duration/video__duration.css);
 @import url(../blocks/video/__item-title/video__item-title.css);

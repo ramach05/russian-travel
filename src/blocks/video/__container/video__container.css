@@ -1,7 +1,14 @@
 .video__container {
-  max-width: 1184px;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .video__container {
+    flex-direction: column;
+  }
 }
