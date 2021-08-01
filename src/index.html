@@ -9,10 +9,10 @@
 
   <body>
     <div class="page">
-      <!-- <header aria-label="шапка" class="header">
+      <header aria-label="шапка" class="header">
         <img
           class="header__logo"
-          src="./images/header__logo.svg"
+          src="<%=require('./images/header__logo.svg')%>"
           alt="карта России. лого."
         />
         <ul class="lang-link">
@@ -33,7 +33,7 @@
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <img
-          src="./images/kalegin-michail-179870-unsplash.png"
+          src="<%=require('./images/kalegin-michail-179870-unsplash.png')%>"
           alt="карта маршрута на фоне спящей в поезде женщины"
           class="lead__image"
         />
@@ -79,62 +79,62 @@
 
       <section aria-label="грид контейнер" class="photo-grid">
         <img
-          src="./images/photo-grid/__item-11.png"
+          src="<%=require('./images/photo-grid/__item-11.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-10.png"
+          src="<%=require('./images/photo-grid/__item-10.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-9.png"
+          src="<%=require('./images/photo-grid/__item-9.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-8.png"
+          src="<%=require('./images/photo-grid/__item-8.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-7.png"
+          src="<%=require('./images/photo-grid/__item-7.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-6.png"
+          src="<%=require('./images/photo-grid/__item-6.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-5.png"
+          src="<%=require('./images/photo-grid/__item-5.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-4.png"
+          src="<%=require('./images/photo-grid/__item-4.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-3.png"
+          src="<%=require('./images/photo-grid/__item-3.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-2.png"
+          src="<%=require('./images/photo-grid/__item-2.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item-1.png"
+          src="<%=require('./images/photo-grid/__item-1.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
         <img
-          src="./images/photo-grid/__item.png"
+          src="<%=require('./images/photo-grid/__item.png')%>"
           alt="пейзаж."
           class="photo-grid__item"
         />
@@ -144,7 +144,7 @@
         <div class="place">
           <h2 class="place__title">Куршская&#8195;коса</h2>
           <img
-            src="./images/places/__image-4.png"
+            src="<%=require('./images/places/__image-4.png')%>"
             alt="Куршская коса. пейзаж."
             class="place__image"
           />
@@ -174,7 +174,7 @@
         <div class="place">
           <h2 class="place__title">Кольский</h2>
           <img
-            src="./images/places/__image-3.png"
+            src="<%=require('./images/places/__image-3.png')%>"
             alt="Кольский полуостров. пейзаж."
             class="place__image"
           />
@@ -207,7 +207,7 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <img
-            src="./images/places/__image-2.png"
+            src="<%=require('./images/places/__image-2.png')%>"
             alt="Алтай. пейзаж."
             class="place__image"
           />
@@ -239,7 +239,7 @@
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img
-            src="./images/places/__image-1.png"
+            src="<%=require('./images/places/__image-1.png')%>"
             alt="Зимний Байкал. пейзаж."
             class="place__image"
           />
@@ -271,7 +271,7 @@
         <div class="place">
           <h2 class="place__title">Карелия</h2>
           <img
-            src="./images/places/__image.png"
+            src="<%=require('./images/places/__image.png')%>"
             alt="Карелия. пейзаж."
             class="place__image"
           />
@@ -295,9 +295,11 @@
             </p>
           </div>
         </div>
-      </article> -->
+      </article>
 
-      <div class="video">
+      <!--  -->
+
+      <section class="video">
         <h2 class="video__title">
           В глубины Земли и&#160;в&#160;дальний космос
         </h2>
@@ -305,23 +307,28 @@
           Видео от студии Stereotactic о местах в России, где ведутся
           фундаментальные исследования
         </p>
-        <div class="container">
-          <div class="container__item">
-            <div class="container__item_icon-play"></div>
-            <p class="container__item_duration">6:30</p>
-            <h4 class="container__item_title">Colors of Kamchatka</h4>
-            <p class="container__item_subtitle">Director: Pavel Karykhalin</p>
-          </div>
-          <div class="container__item">
-            <div class="container__item_icon-play"></div>
-            <p class="container__item_duration">24:45</p>
-            <h4 class="container__item_title">Обсерватория | Observatory</h4>
-            <p class="container__item_subtitle">Director: Alexander Khudokon</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="comments">
+        <ul class="video__container">
+          <li class="video__container-item">
+            <div class="video__content">
+              <div class="video__icon-play"></div>
+              <p class="video__duration">6:30</p>
+              <h4 class="video__item-title">Colors of Kamchatka</h4>
+              <p class="video__item-subtitle">Director: Pavel Karykhalin</p>
+            </div>
+          </li>
+          <li class="video__container-item">
+            <div class="video__content">
+              <div class="video__icon-play"></div>
+              <p class="video__duration">24:45</p>
+              <h4 class="video__item-title">Обсерватория | Observatory</h4>
+              <p class="video__item-subtitle">Director: Alexander Khudokon</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="comments">
         <h2 class="comments__title">Фотографы, снимающие Россию</h2>
         <p class="comments__subtitle">
           Природа и люди вдохновили их работы, удостоенные наград на
@@ -334,9 +341,7 @@
               «Если вам кажется, что в России ничего не происходит, то просто
               выгляньте “наружу”…»
             </p>
-            <p class="comments-container__comment_author">
-              Виктор Лягушкин
-            </p>
+            <p class="comments-container__comment_author">Виктор Лягушкин</p>
           </li>
           <li class="container-comments comments-container__comment">
             <div class="comments-container__comment_image"></div>
@@ -346,9 +351,7 @@
               туристы обеспечивают любой город молодёжью, рабочими местами и в
               конечном счёте наполняют его жизнью.»
             </p>
-            <p class="comments-container__comment_author">
-              Иван Хафизов
-            </p>
+            <p class="comments-container__comment_author">Иван Хафизов</p>
           </li>
           <li class="container-comments comments-container__comment">
             <div class="comments-container__comment_image"></div>
@@ -356,12 +359,12 @@
               «Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
               покажешь, как им плохо, то ты сволочь и всё очернил.»
             </p>
-            <p class="comments-container__comment_author">
-              Сергей Максимишин
-            </p>
+            <p class="comments-container__comment_author">Сергей Максимишин</p>
           </li>
         </ul>
-      </div>
+      </section>
+
+      <!--  -->
 
       <section class="cover">
         <a
@@ -377,7 +380,7 @@
         </a>
       </section>
 
-      <!-- <footer class="footer">
+      <footer class="footer">
         <nav>
           <ul class="links">
             <li class="links__link">
@@ -423,7 +426,7 @@
           </ul>
         </nav>
         <p class="footer__copyright">&commat; 2020. Роман Коваленко</p>
-      </footer> -->
+      </footer>
     </div>
   </body>
 </html>
