@@ -1,4 +1,4 @@
-.container__item {
+.video__container-item {
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -10,14 +10,14 @@
   position: relative;
   /* padding-bottom: 55.403087%; */
 }
-.container__item:first-of-type {
+.video__container-item:first-of-type {
   background-image: url(../../../images/video/kamchatka.jpg);
   margin-right: 18px;
 }
-.container__item:last-of-type {
+.video__container-item:last-of-type {
   background-image: url(../../../images/video/observatory.jpg);
 }
-.container__item::before {
+.video__container-item::before {
   content: "";
   background-color: #000000;
   opacity: 0.5;
