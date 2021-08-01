@@ -1,7 +1,7 @@
 {
   "name": "russian-travel",
   "version": "1.0.0",
-  "description": "Adaptive website. Compiled using webpack and uploaded to the gh-pages server.",
+  "description": "Adaptive website. Compiled using webpack and uploaded to gh-pages server.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ramach05/russian-travel/issues"
   },
-  "homepage": "",
+  "homepage": "https://ramach05.github.io/russian-travel",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",

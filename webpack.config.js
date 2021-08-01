@@ -64,4 +64,5 @@ module.exports = {
       },
     ],
   },
+  target: "web", // активирует hot-reload в режиме разработки
 };
