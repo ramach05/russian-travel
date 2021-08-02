@@ -1,5 +1,5 @@
 .comments__title {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -8,4 +8,18 @@
   max-width: 800px;
   margin: 0 auto 48px;
   padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

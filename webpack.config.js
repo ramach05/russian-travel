@@ -11,7 +11,7 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
     filename: "main.js",
     publicPath: "",
   },
@@ -19,10 +19,10 @@ module.exports = {
   mode: "development", // добавили режим разработчика
 
   devServer: {
-    contentBase: path.resolve(__dirname, "./dist"), // путь, куда "смотрит" режим разработчика
+    contentBase: path.resolve(__dirname, "./build"), // путь, куда "смотрит" режим разработчика
     compress: true, // это ускорит загрузку в режиме разработки
-    port: 8080, // порт, чтобы открывать сайт по адресу localhost:8080, но можно поменять порт
-    open: true, // сайт будет открываться сам при запуске npm run dev
+    port: 8080, // открывает сайт по адресу localhost:8080
+    open: true, // сайт будет открываться сам при запуске 'npm run dev'
   },
 
   plugins: [
