@@ -65,10 +65,4 @@
 @import url(../blocks/comments/__text/comments__text.css);
 @import url(../blocks/comments/__author/comments__author.css);
 
-/* @import url(../blocks/container-comments/container-comments.css);
-@import url(../blocks/container-comments/__comment/comments__content.css);
-@import url(../blocks/container-comments/__comment/_quote/comments-container__comment_quo.css);
-@import url(../blocks/container-comments/__comment/_author/comments__author.css);
-@import url(../blocks/container-comments/__comment/_image/comments__image.css); */
-
 @import url(../blocks/link-decoration/link-decoration.css);
