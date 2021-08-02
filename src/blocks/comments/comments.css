@@ -1,3 +1,5 @@
 .comments {
-  margin: 0 48px 102px;
+  margin: 0 auto 102px;
+  max-width: 1184px;
+  padding: 0 calc(16 / 320 * 100vw);
 }
