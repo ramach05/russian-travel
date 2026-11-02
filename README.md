@@ -1,3 +1,6 @@
+> **Archived.** Learning project from 2021, kept as a starting point.
+> Static landing page about travelling Russia: semantic HTML, BEM, grid and flexbox, fully responsive. Original README below.
+
 # **Russian Travel**
 
 ### **Функциональность проекта**
